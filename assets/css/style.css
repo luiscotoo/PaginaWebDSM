@@ -655,7 +655,7 @@ section {
   overflow: hidden;
 }
 .portfolio .portfolio-item img {
-  position: relative;
+  position: center;
   top: 0;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -1704,4 +1704,9 @@ section {
   background: #d01d3f;
   color: #fff;
   text-decoration: none;
+}
+.contenedorImg {
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
 }
